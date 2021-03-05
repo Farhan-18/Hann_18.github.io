@@ -1,0 +1,234 @@
+/* MOBILE VERSION */
+@media (max-width: 575.98px) {
+  body {
+    min-height: 2000px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #ddd;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 200;
+    font-family: "Viga";
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .nav-link {
+    font-size: 11px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  .jumbotron {
+    background-image: url("/img/Landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    position: relative;
+  }
+  .jumbotron .container {
+    position: relative;
+    text-align: center;
+    padding-top: 4em;
+    color: #fff;
+  }
+  .jumbotron h3 {
+    font-weight: 200;
+    font-size: 20px;
+  }
+  .tombol-home {
+    border-radius: 20px;
+    font-size: 11px;
+  }
+  .tombol {
+    border-radius: 20px;
+    font-size: 11px;
+  }
+  .main {
+    margin-top: 3em;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-1 {
+    order: 2;
+  }
+  .flex-2 {
+    order: 1;
+  }
+  .flex-2 img {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  .flex-1 h3 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .flex-1 p {
+    font-size: 13px;
+  }
+  #main-content {
+    /* margin-top: 1em; */
+    padding-top: 4em;
+  }
+  #main-content h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  #main-content img {
+    position: relative;
+    /* left: 10%; */
+    width: 375px;
+    margin: 5px;
+  }
+  #main-content .figure-caption {
+    text-align: center;
+    padding-left: 50px;
+    font-weight: 500;
+  }
+  #contact {
+    padding-top: 5em;
+  }
+  #contact h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .footer {
+    margin-top: 5em;
+    background-color: black;
+    text-align: center;
+  }
+  .footer h3 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #ddd;
+    margin: 20px;
+  }
+}
+
+/*  */
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  body {
+    min-height: 2000px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #ddd;
+  }
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: 200;
+    font-family: "Viga";
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .nav-link {
+    font-size: 11px;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  .jumbotron {
+    background-image: url("/img/Landing.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 320px;
+    position: relative;
+  }
+  .jumbotron .container {
+    position: relative;
+    text-align: center;
+    padding-top: 4em;
+    color: #fff;
+  }
+  .jumbotron h3 {
+    font-weight: 200;
+    font-size: 20px;
+  }
+  .tombol-home {
+    border-radius: 20px;
+    font-size: 11px;
+  }
+  .tombol {
+    border-radius: 20px;
+    font-size: 11px;
+  }
+  .main {
+    margin-top: 3em;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-1 {
+    order: 2;
+  }
+  .flex-2 {
+    order: 1;
+  }
+  .flex-2 img {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  .flex-1 h3 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .flex-1 p {
+    font-size: 13px;
+  }
+  #main-content {
+    /* margin-top: 1em; */
+    padding-top: 4em;
+  }
+  #main-content h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  #main-content img {
+    position: relative;
+    /* left: 10%; */
+    width: 375px;
+    margin: 5px;
+  }
+  #main-content .figure-caption {
+    text-align: center;
+    padding-left: 50px;
+    font-weight: 500;
+  }
+  #contact {
+    padding-top: 5em;
+  }
+  #contact h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .footer {
+    margin-top: 5em;
+    background-color: black;
+    text-align: center;
+  }
+  .footer h3 {
+    font-size: 14px;
+    font-weight: 200;
+    color: #ddd;
+    margin: 20px;
+  }
+}
